@@ -11,7 +11,7 @@ import smtplib
 import tweepy
 import pymysql.connections
 bot = telebot.TeleBot("1279865343:AAFnt3irzahq6qABMITEf8tAgRJz1Y2EMAQ")
-client = bybit.bybit(test=False, api_key="kJpsWCHrHqo2CkkrRz", api_secret="zfAADNVJYm1gOzQEBiMdU4PW0vWPQ6SkDPn2")
+client = bybit.bybit(test=False, api_key="", api_secret="")
 btcprice = client.Market.Market_symbolInfo().result()[0]["result"][0]["last_price"]
 
 
